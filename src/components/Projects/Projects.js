@@ -6,7 +6,6 @@ import klashraTours from "../../Assets/Projects/Klashra-Tours.png";
 import nexwave from "../../Assets/Projects/Nexwave.png";
 import qibLogistics from "../../Assets/Projects/QIB-Logistics.png";
 
-
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -21,12 +20,13 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={klashraTours}
+              imgPath={qibLogistics}
               isBlog={false}
-              title="Klashra Tours"
-              description="KLASHRA Travel is an award-winning, family-operated travel company that curates unforgettable journeys while keeping the planet's well-being at heart."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://earnest-madeleine-e4b5c0.netlify.app/"
+              title="QIB-Logistics"
+              description="Cargo Solutions : Tailored for You
+              Welcome to QIB Logistics (QuickCargo)! We specialize in helping Canada connect with the world through imports and exports. Explore our services and products to discover how we can meet your needs."
+              // ghLink="https://qiblogistics.com/"
+              demoLink="https://qiblogistics.com/"
             />
           </Col>
 
@@ -45,16 +45,14 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={qibLogistics}
+              imgPath={klashraTours}
               isBlog={false}
-              title="QIB-Logistics"
-              description="Cargo Solutions : Tailored for You
-              Welcome to QIB Logistics (QuickCargo)! We specialize in helping Canada connect with the world through imports and exports. Explore our services and products to discover how we can meet your needs."
-              // ghLink="https://qiblogistics.com/"
-              demoLink="https://qiblogistics.com/"              
+              title="Klashra Tours"
+              description="KLASHRA Travel is an award-winning, family-operated travel company that curates unforgettable journeys while keeping the planet's well-being at heart."
+              ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://earnest-madeleine-e4b5c0.netlify.app/"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
